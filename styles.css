@@ -1,10 +1,33 @@
+* {
+
+
+}
 body {
-  background-image: linear-gradient(to right, #6B8DF0, #F5E4F8);
+  background-image: linear-gradient(to right, rgba(13, 0, 255, 0.63), rgba(255, 0, 0, 0.63) ); 
+  color: white;
+  font-family: 'Russo One', sans-serif;
 }
 #title {
-font-family: 'Major Mono Display', monospace;
+  font-size: 3em;
+  text-align: center;
 }
+.container {
+  display: grid;
+  /* grid-gap: 4px; */
+  grid-template-rows: 100px 100px 1fr 1fr;
+  grid-template-columns: 80px 1fr 30px;
+}
+p {
+  text-align: center;
 
+}
+section {
+  text-align: center;
+}
+.list-item {
+  list-style-type: none;
+  text-align: left;
+}
 
 h2 {
 
