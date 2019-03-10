@@ -1,21 +1,31 @@
-* {
 
-
-}
-body {
-  background-image: linear-gradient(to right, rgba(13, 0, 255, 0.63), rgba(255, 0, 0, 0.63) ); 
+.main {
+  background-image: linear-gradient(rgba(2, 12, 77, 100), rgba(138, 200, 255, 100));
   color: white;
   font-family: 'Russo One', sans-serif;
 }
+
 #title {
   font-size: 3em;
-  text-align: center;
+  text-align: left;
+}
+
+#profile-pic {
+  display: flex;
+  justify-content: center;
 }
 .container {
   display: grid;
-  /* grid-gap: 4px; */
-  grid-template-rows: 100px 100px 1fr 1fr;
-  grid-template-columns: 80px 1fr 30px;
+  /* width: 1200px; */
+  /* text-align: center; */
+  grid-template-columns: 1fr;
+  grid-column-gap: 5px;
+  border: 2px solid rgba(121, 116, 116, 0.77);
+  background-color: rgba(0, 0, 0, 0.45);
+}
+.container-item1 {
+}
+.container-item2{
 }
 p {
   text-align: center;
