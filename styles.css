@@ -1,6 +1,7 @@
 
 .main {
   background-image: url(website-background1.png);
+  background-size: cover;
   color: white;
   font-family: 'Russo One', sans-serif;
 }
@@ -25,21 +26,13 @@
   background-color: rgba(0, 0, 0, 0.45);
 }
 .container-item1 {
+    text-align: center;
 }
 .container-item2{
-}
-p {
-  text-align: center;
-
-}
-section {
+  list-style-type: none;
   text-align: center;
 }
 .list-item {
   list-style-type: none;
-  text-align: left;
-}
-
-h2 {
-
+  text-align: center;
 }
