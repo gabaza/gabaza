@@ -23,6 +23,7 @@
   grid-template-columns: 1fr;
   grid-column-gap: 5px;
   border: 2px solid rgba(121, 116, 116, 0.77);
+  border-radius: 25px;
   background-color: rgba(0, 0, 0, 0.45);
 }
 .container-item1 {
