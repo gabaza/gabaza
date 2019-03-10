@@ -1,6 +1,6 @@
 
 .main {
-  background-image: linear-gradient(rgba(2, 12, 77, 100), rgba(138, 200, 255, 100));
+  background-image: url(website-background1.png);
   color: white;
   font-family: 'Russo One', sans-serif;
 }
