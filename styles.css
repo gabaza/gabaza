@@ -79,7 +79,9 @@ body {
   position: absolute;
   display: grid;
   font-family: 'Orbitron', sans-serif;
-  width: 1200px;
+  width: auto;
+  height: 700px;
+  overflow: scroll;
   /* left: 50; */
   /* right: 50; */
   grid-template-columns: 1fr;
@@ -88,10 +90,12 @@ body {
   border-radius: 25px;
   background-color: rgba(0, 0, 0, 0.86);
   margin-top: 20px;
-  margin-left: 90px;
-  margin-right: 90px;
-  margin-bottom: 50px; */
-  /* padding: 10px; */
+  /* margin-left: 90px;
+  margin-right: 90px; */
+  left: 90px;
+  right: 90px;
+
+  /* margin-bottom: 50px; */
   font-size: 25px;
   color: rgb(40, 172, 0);
   letter-spacing: 3px;
@@ -99,14 +103,14 @@ body {
 .container-item1 {
     text-align: left;
     padding: 35px;
-    font-size: 1.5em;
+    font-size: 1.15em;
 
 
 }
 .container-item2{
   list-style-type: none;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.15em;
   padding: 35px;
 }
 li {
