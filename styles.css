@@ -5,6 +5,7 @@ body {
   background-size: cover;
   color: white;
   font-family: 'Russo One', sans-serif;
+
 }
 
 #title {
@@ -12,9 +13,20 @@ body {
   text-align: left;
   font-family: 'Press Start 2P', cursive;
 }
+
 #open a {
-  font-size: 40px;
-  font-family: 'Press Start 2P', cursive;
+  padding: 5px;
+  font-size: 26px;
+  margin-left: 30px;
+  border: solid 5px rgb(219, 30, 18);
+ transition: 0.6s linear;
+ font-family: 'Press Start 2P', cursive;
+
+}
+
+#open a:hover {
+  color: rgb(219, 30, 18);
+  border-width: 10px;
 }
 .sidenav {
   height: 225px;
@@ -23,7 +35,7 @@ body {
   z-index: 1;
   top: 0px;
   right: 12px;
-  background-color: rgb(227, 231, 24);
+  background-color: rgb(0, 0, 0);
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -31,11 +43,11 @@ body {
   border-radius: 10%;
 }
 .sidenav a {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Orbitron', sans-serif;
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 16px;
-  color: #818181;
+  color: rgb(40, 172, 0);
   display: block;
   transition: 0.3s;
 }
@@ -45,9 +57,9 @@ body {
 }
 
 .sidenav h1{
-  color: #818181;
+  color: rgb(40, 172, 0);
   padding-left: 32px;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Orbitron', sans-serif;
   margin-top: 0px;
 }
 
@@ -65,19 +77,21 @@ body {
 }
 .container {
   display: grid;
+font-family: 'Orbitron', sans-serif;
   /* width: 1200px; */
   /* text-align: center; */
   grid-template-columns: 1fr;
   grid-row-gap: 5px;
   border: 2px solid rgba(121, 116, 116, 0.77);
   border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.45);
-  /* margin-top: 65px;
-  margin-left: 90px;
+  background-color: rgba(0, 0, 0, 0.86);
+  margin-top: 20px;
+  /* margin-left: 90px;
   margin-right: 90px;
   margin-bottom: 50px; */
   padding: 10px;
   font-size: 19px;
+  color: rgb(40, 172, 0);
 }
 .container-item1 {
     text-align: center;
@@ -91,4 +105,8 @@ li {
 }
 a {
   color: white;
+}
+
+.link {
+  color: rgb(40, 172, 0);
 }
