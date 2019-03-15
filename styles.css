@@ -28,6 +28,9 @@ body {
   color: rgb(219, 30, 18);
   border-width: 10px;
 }
+/* profile-pic{
+  left: 40%;
+} */
 .sidenav {
   height: 225px;
   width: 0;
