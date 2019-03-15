@@ -1,6 +1,6 @@
 
 body {
-  background-image: url(Groupv2.png);
+  background-image: url(greenv1.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -86,7 +86,8 @@ body {
   /* right: 50; */
   grid-template-columns: 1fr;
   grid-row-gap: 5px;
-  border: 2px solid rgba(121, 116, 116, 0.77);
+  /* border: 2px solid rgba(121, 116, 116, 0.77); */
+  border: 2px solid rgb(40, 172, 0);
   border-radius: 25px;
   background-color: rgba(0, 0, 0, 0.86);
   margin-top: 20px;
@@ -112,6 +113,7 @@ body {
   text-align: center;
   font-size: 1.15em;
   padding: 35px;
+  margin-top: 0;
 }
 li {
   /* list-style-type: none; */
