@@ -13,6 +13,13 @@ body {
   text-align: left;
   font-family: 'Press Start 2P', cursive;
 }
+#title a {
+  text-decoration: none;
+}
+#title a:hover {
+  text-decoration: none;
+  color: rgb(219, 30, 18);
+}
 
 #background-changer a {
   padding: 5px;
