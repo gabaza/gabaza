@@ -8,6 +8,8 @@ function closeNav() {
 
 function replace() {
   document.body.style.backgroundImage = 'url(Groupv2.png)';
+  document.getElementById("profile-pic").src = "pixel-icon-v2.png";
+
 }
 
 function replaceBack() {
